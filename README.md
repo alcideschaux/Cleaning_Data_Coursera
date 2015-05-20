@@ -31,10 +31,10 @@ This first part does the following:
 
 * __Appropriately labels the data set with descriptive activity names:__ the variable names in the columns were changed to more descriptive albeit longer names.
 
-This first part delivers a data.frame named `Data_Set` which contains all the Samsung data (10299 observations of 68 variables).
+This first part delivers a data.frame named `Data_Set` which contains all the Samsung data (10299 observations of 81 variables).
 
 ### Second part
-The second part of the scrip creates a second, independent tidy data set with the average of each variable for each activity and each subject. This second part delivers a data.frame named `Tidy_Set` which is written into a .csv file in the working directory. This second dataset can be accessed from [here](https://github.com/alcideschaux/Cleaning_Data_Coursera/blob/master/Tidy_Set.csv).
+The second part of the scrip creates a second, independent tidy data set with the average of each variable for each activity and each subject. This second part delivers a data.frame named `Tidy_Set` which is written into a .TXT file in the working directory. This second dataset can be accessed from [here](https://github.com/alcideschaux/Cleaning_Data_Coursera/blob/master/Tidy_Set.txt).
 
 ## Codebook
 The codebook describing the variables included in the tidy datasets can be accessed from [here](https://github.com/alcideschaux/Cleaning_Data_Coursera/blob/master/CODEBOOK.Rmd).

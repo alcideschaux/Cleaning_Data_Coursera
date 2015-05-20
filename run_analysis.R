@@ -59,4 +59,4 @@ rm(list = (ls()[ls() != "Data_Set"]))
 # Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 library(plyr)
 Tidy_Set <- ddply(Data_Set, .(Subject_ID, Activity), numcolwise(mean))
-write.csv(Tidy_Set, "Tidy_Set.csv", row.names = FALSE)
+write.table(Tidy_Set, "Tidy_Set.txt", row.names = FALSE)
