@@ -1,0 +1,248 @@
+---
+output: html_document
+---
+## Codebook
+The variables included in the datasets are described in this codebook. In **[brackets]** is the column number of the datasets, followed by the column (variable) name in "parenthesis". The *description* of the variable is included below the column number and name, with factor levels when appropriate.
+
+**[1]** "Subject_ID"                 
+*Description: Subject identification number
+
+**[2]** "Activity"                 
+*Description: Subject's activity. Levels: Walking, Walking upstairs, Walking downstairs, Sitting, Standing, Laying*
+
+**[3]** "T_Body_Accelerometer_mean()_X"                 
+*Description: Body time accelerometer signal, X-axis mean*
+
+**[4]** "T_Body_Accelerometer_mean()_Y"                 
+*Description: Body time accelerometer signal, Y-axis mean*
+
+**[5]** "T_Body_Accelerometer_mean()_Z"                 
+*Description: Body time accelerometer signal, Z-axis mean*
+
+**[6]** "T_Gravity_Accelerometer_mean()_X"              
+*Description: Gravity time accelerometer signal, X-axis mean*
+
+**[7]** "T_Gravity_Accelerometer_mean()_Y"              
+*Description: Gravity time accelerometer signal, Y-axis mean*
+
+**[8]** "T_Gravity_Accelerometer_mean()_Z"              
+*Description: Gravity time accelerometer signal, Z-axis mean*
+
+**[9]** "T_Body_Accelerometer_Jerk_mean()_X"            
+*Description: Body time accelerometer signal, X-axis jerk mean*
+
+**[10]** "T_Body_Accelerometer_Jerk_mean()_Y"            
+*Description: Body time accelerometer signal, Y-axis jerk mean*
+
+**[11]** "T_Body_Accelerometer_Jerk_mean()_Z"            
+*Description: Body time accelerometer signal, Z-axis jerk mean*
+
+**[12]** "T_Body_Gyroscope_mean()_X"                     
+*Description: Body time gyroscope signal, X-axis mean*
+
+**[13]** "T_Body_Gyroscope_mean()_Y"                     
+*Description: Body time gyroscope signal, Y-axis mean*
+
+**[14]** "T_Body_Gyroscope_mean()_Z"                     
+*Description: Body time gyroscope signal, Z-axis mean*
+
+**[15]** "T_Body_Gyroscope_Jerk_mean()_X"                
+*Description: Body time gyroscope signal, X-axis jerk mean*
+
+**[16]** "T_Body_Gyroscope_Jerk_mean()_Y"                
+*Description: Body time gyroscope signal, Y-axis jerk mean*
+
+**[17]** "T_Body_Gyroscope_Jerk_mean()_Z"                
+*Description: Body time gyroscope signal, Z-axis jerk mean*
+
+**[18]** "T_Body_Accelerometer_Magnitude_mean()"         
+*Description: Body time accelerometer signal, magnitude mean*
+
+**[19]** "T_Gravity_Accelerometer_Magnitude_mean()"      
+*Description: Gravity time accelerometer signal, magnitude mean*
+
+**[20]** "T_Body_Accelerometer_Jerk_Magnitude_mean()"    
+*Description: Body time accelerometer signal, jerk magnitude mean*
+
+**[21]** "T_Body_Gyroscope_Magnitude_mean()"             
+*Description: Body time gyroscope signal, magnitude mean*
+
+**[22]** "T_Body_Gyroscope_Jerk_Magnitude_mean()"        
+*Description: Body time gyroscope signal, jerk magnitude mean*
+
+**[23]** "F_Body_Accelerometer_mean()_X"                 
+*Description: Body frequency accelerometer signal, X-axis mean*
+
+**[24]** "F_Body_Accelerometer_mean()_Y"                 
+*Description: Body frequency accelerometer signal, Y-axis mean*
+
+**[25]** "F_Body_Accelerometer_mean()_Z"                 
+*Description: Body frequency accelerometer signal, Z-axis mean*
+
+**[26]** "F_Body_Accelerometer_meanFreq()_X"             
+*Description: Body frequency accelerometer signal, X-axis frequency mean*
+
+**[27]** "F_Body_Accelerometer_meanFreq()_Y"             
+*Description: Body frequency accelerometer signal, Y-axis frequency mean*
+
+**[28]** "F_Body_Accelerometer_meanFreq()_Z"             
+*Description: Body frequency accelerometer signal, Z-axis frecuency mean*
+
+**[29]** "F_Body_Accelerometer_Jerk_mean()_X"            
+*Description: Body frequency accelerometer signal, X-axis jerk mean*
+
+**[30]** "F_Body_Accelerometer_Jerk_mean()_Y"            
+*Description: Body frequency accelerometer signal, Y-axis jerk mean*
+
+**[31]** "F_Body_Accelerometer_Jerk_mean()_Z"            
+*Description: Body frequency accelerometer signal, Z-axis jerk mean*
+
+**[32]** "F_Body_Accelerometer_Jerk_meanFreq()_X"        
+*Description: Body frequency accelerometer signal, X-axis jerk frequency mean*
+
+**[33]** "F_Body_Accelerometer_Jerk_meanFreq()_Y"        
+*Description: Body frequency accelerometer signal, Y-axis jerk frequency mean*
+
+**[34]** "F_Body_Accelerometer_Jerk_meanFreq()_Z"        
+*Description: Body frequency accelerometer signal, Z-axis jerk frequency mean*
+
+**[35]** "F_Body_Gyroscope_mean()_X"                     
+*Description: Body frequency gyroscope signal, X-axis mean*
+
+**[36]** "F_Body_Gyroscope_mean()_Y"                     
+*Description: Body frequency gyroscope signal, Y-axis mean*
+
+**[37]** "F_Body_Gyroscope_mean()_Z"                     
+*Description: Body frequency gyroscope signal, Z-axis mean*
+
+**[38]** "F_Body_Gyroscope_meanFreq()_X"                 
+*Description: Body frequency gyroscope signal, X-axis frequency mean*
+
+**[39]** "F_Body_Gyroscope_meanFreq()_Y"                 
+*Description: Body frequency gyroscope signal, Y-axis frequency mean*
+
+**[40]** "F_Body_Gyroscope_meanFreq()_Z"                 
+*Description: Body frequency gyroscope signal, Z-axis frequency mean*
+
+**[41]** "F_Body_Accelerometer_Magnitude_mean()"         
+*Description: Body frequency accelometer signal, magnitude mean*
+
+**[42]** "F_Body_Accelerometer_Magnitude_meanFreq()"     
+*Description: Body frequency accelometer signal, magnitude frequency mean*
+
+**[43]** "F_Body_Accelerometer_Jerk_Magnitude_mean()"    
+*Description: Body frequency accelometer signal, magnitude jerk mean*
+
+**[44]** "F_Body_Accelerometer_Jerk_Magnitude_meanFreq()"    
+*Description: Body frequency accelometer signal, magnitude jerk frequency mean*
+
+**[45]** "F_Body_Gyroscope_Magnitude_mean()"             
+*Description: Body frequency gyroscope signal, magnitude mean*
+
+**[46]** "F_Body_Gyroscope_Magnitude_meanFreq()"         
+*Description: Body frequency gyroscope signal, frequency mean*
+
+**[47]** "F_Body_Gyroscope_Jerk_Magnitude_mean()"        
+*Description: Body frequency gyroscope signal, magnitude jerk mean*
+
+**[48]** "F_Body_Gyroscope_Jerk_Magnitude_meanFreq()"    
+*Description: Body frequency gyroscope signal, magnitude jerk frequency mean*
+
+**[49]** "T_Body_Accelerometer_std()_X"                  
+*Description: Body time accelerometer signal, X-axis standard deviation*
+
+**[50]** "T_Body_Accelerometer_std()_Y"                  
+*Description: Body time accelerometer signal, Y-axis standard deviation*
+
+**[51]** "T_Body_Accelerometer_std()_Z"                  
+*Description: Body time accelerometer signal, Z-axis standard deviation*
+
+**[52]** "T_Gravity_Accelerometer_std()_X"               
+*Description: Gravity time accelerometer signal, X-axis standard deviation*
+
+**[53]** "T_Gravity_Accelerometer_std()_Y"               
+*Description: Gravity time accelerometer signal, Y-axis standard deviation*
+
+**[54]** "T_Gravity_Accelerometer_std()_Z"               
+*Description: Gravity time accelerometer signal, Z-axis standard deviation*
+
+**[55]** "T_Body_Accelerometer_Jerk_std()_X"             
+*Description: Body time accelerometer signal, X-axis jerk standard deviation*
+
+**[56]** "T_Body_Accelerometer_Jerk_std()_Y"             
+*Description: Body time accelerometer signal, Y-axis jerk standard deviation*
+
+**[57]** "T_Body_Accelerometer_Jerk_std()_Z"             
+*Description: Body time accelerometer signal, Z-axis jerk standard deviation*
+
+**[58]** "T_Body_Gyroscope_std()_X"                      
+*Description: Body time gyroscope signal, X-axis standard deviation*
+
+**[59]** "T_Body_Gyroscope_std()_Y"                      
+*Description: Body time gyroscope signal, Y-axis standard deviation*
+
+**[60]** "T_Body_Gyroscope_std()_Z"                      
+*Description: Body time gyroscope signal, Z-axis standard deviation*
+
+**[61]** "T_Body_Gyroscope_Jerk_std()_X"                 
+*Description: Body time gyroscope signal, X-axis jerk standard deviation*
+
+**[62]** "T_Body_Gyroscope_Jerk_std()_Y"                 
+*Description: Body time gyroscope signal, Y-axis jerk standard deviation*
+
+**[63]** "T_Body_Gyroscope_Jerk_std()_Z"                 
+*Description: Body time gyroscope signal, Z-axis jerk standard deviation*
+
+**[64]** "T_Body_Accelerometer_Magnitude_std()"          
+*Description: Body time accelerometer signal, magnitude standard deviation*
+
+**[65]** "T_Gravity_Accelerometer_Magnitude_std()"       
+*Description: Gravity time accelerometer signal, magnitude standard deviation*
+
+**[66]** "T_Body_Accelerometer_Jerk_Magnitude_std()"     
+*Description: Body time accelerometer signal, magnitude jerk standard deviation*
+
+**[67]** "T_Body_Gyroscope_Magnitude_std()"              
+*Description: Body time gyroscope signal, magnitude standard deviation*
+
+**[68]** "T_Body_Gyroscope_Jerk_Magnitude_std()"         
+*Description: Body time gyroscope signal, magnitude jerk standard deviation*
+
+**[69]** "F_Body_Accelerometer_std()_X"                  
+*Description: Body frequency accelerometer signal, X-axis standard deviation*
+
+**[70]** "F_Body_Accelerometer_std()_Y"                  
+*Description: Body frequency accelerometer signal, Y-axis standard deviation*
+
+**[71]** "F_Body_Accelerometer_std()_Z"                  
+*Description: Body frequency accelerometer signal, Z-axis standard deviation*
+
+**[72]** "F_Body_Accelerometer_Jerk_std()_X"             
+*Description: Body frequency accelerometer signal, X-axis jerk standard deviation*
+
+**[73]** "F_Body_Accelerometer_Jerk_std()_Y"             
+*Description: Body frequency accelerometer signal, Y-axis jerk standard deviation*
+
+**[74]** "F_Body_Accelerometer_Jerk_std()_Z"             
+*Description: Body frequency accelerometer signal, Z-axis jerk standard deviation*
+
+**[75]** "F_Body_Gyroscope_std()_X"                      
+*Description: Body frequency gyroscope signal, X-axis standard deviation*
+
+**[76]** "F_Body_Gyroscope_std()_Y"                      
+*Description: Body frequency gyroscope signal, Y-axis standard deviation*
+
+**[77]** "F_Body_Gyroscope_std()_Z"                      
+*Description: Body frequency gyroscope signal, Z-axis standard deviation*
+
+**[78]** "F_Body_Accelerometer_Magnitude_std()"          
+*Description: Body frequency accelerometer signal, magnitude standard deviation*
+
+**[79]** "F_Body_Accelerometer_Jerk_Magnitude_std()"     
+*Description: Body frequency accelerometer signal, magnitude jerk standard deviation*
+
+**[80]** "F_Body_Gyroscope_Magnitude_std()"              
+*Description: Body frequency gyroscope signal, magnitude standard deviation*
+
+**[81]** "F_Body_Gyroscope_Jerk_Magnitude_std()"  
+*Description: Body frequency gyroscope signal, magnitude jerk standard deviation*
