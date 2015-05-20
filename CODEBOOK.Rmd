@@ -1,6 +1,3 @@
----
-output: html_document
----
 ## Codebook
 The variables included in the datasets are described in this codebook. In **[brackets]** is the column number of the datasets, followed by the column (variable) name in "parenthesis". The *description* of the variable is included below the column number and name, with factor levels when appropriate.
 

@@ -34,7 +34,7 @@ This first part does the following:
 This first part delivers a data.frame named `Data_Set` which contains all the Samsung data (10299 observations of 68 variables).
 
 ### Second part
-The second part of the scrip creates a second, independent tidy data set with the average of each variable for each activity and each subject. This second part delivers a data.frame named `Tidy_Set` which is written into a .csv file in the working directory. This second dataset can be accessed from [here](https://github.com/alcideschaux/Cleaning_Data_Coursera/blob/master/TidySet.csv).
+The second part of the scrip creates a second, independent tidy data set with the average of each variable for each activity and each subject. This second part delivers a data.frame named `Tidy_Set` which is written into a .csv file in the working directory. This second dataset can be accessed from [here](https://github.com/alcideschaux/Cleaning_Data_Coursera/blob/master/Tidy_Set.csv).
 
 ## Codebook
 The codebook describing the variables included in the tidy datasets can be accessed from [here](https://github.com/alcideschaux/Cleaning_Data_Coursera/blob/master/CODEBOOK.Rmd).
